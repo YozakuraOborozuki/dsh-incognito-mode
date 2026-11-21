@@ -79,11 +79,7 @@ dsh plugin --profile desktop add dsh-incognito-mode@1.0.0
 - 无构建步骤：Host 是普通 ESM `index.js`，Client 是手写 `window.__ModuleLoader__` bundle（`client.js`）。
 - Host 只用 Node 内置模块；Client 只用 DSH 页面提供的 `react` / `react-dom`。
 - 本机离线 smoke：`smoke-host`、`smoke-recover`、`smoke-search`、`smoke-client`（不随包发布）。
-- 打包/发布前检查：见 [PUBLISHING.md](PUBLISHING.md)。
 
-## License
-
-MIT，见 [LICENSE](LICENSE)。
 
 
 
